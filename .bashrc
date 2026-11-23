@@ -3,6 +3,7 @@
 HISTCONTROL=ignoreboth
 HISTSIZE=10000
 HISTFILESIZE=20000
+
 shopt -s histappend
 
 shopt -s autocd
@@ -33,4 +34,11 @@ alias free='free -h'
 alias update='sudo pacman -Syyu'
 alias grbcfg='sudo mkinitcpio -P'
 
+alias logisim='java -jar /home/i386/Downloads/logisim.jar &'
+
+
+# DXVK
+export DXVK_HUD=0
+export DXVK_LOG_LEVEL=none
+export DXVK_HUD=fps, frametimes
 PS1='[\u@\h \W]\ '
