@@ -34,9 +34,6 @@ alias free='free -h'
 alias update='sudo pacman -Syyu'
 alias grbcfg='sudo mkinitcpio -P'
 
-alias logisim='java -jar /home/i386/Downloads/logisim.jar &'
-
-
 # DXVK
 export DXVK_HUD=0
 export DXVK_LOG_LEVEL=none
